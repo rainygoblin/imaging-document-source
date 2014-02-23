@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:Folder existing="false" xmlns:tns="urn:org:openhealthtools:ihe:xds:metadata" xmlns:tns1="urn:org:openhealthtools:ihe:common:hl7v2" xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:org:openhealthtools:ihe:xds:metadata metadata.xsd ">
+  <code>
+    <code>Referrals</code>
+    <displayName>
+      <LocalizedString value="Referrals"/>
+    </displayName>
+    <schemeName>Connect-a-thon folderCodeList</schemeName>
+  </code><!--
+  <patientId>
+   <idNumber>86b549dc300b488</idNumber>  cc7b3bf3bd964e0, 4bb0cd5c4a7245f,f8a9c9d156f848a 
+   <assigningAuthorityUniversalId>1.3.6.1.4.1.21367.2005.3.7</assigningAuthorityUniversalId>
+   <assigningAuthorityUniversalIdType>ISO</assigningAuthorityUniversalIdType>
+  </patientId>
+  --><!-- NA2010 -->
+ <patientId>
+   <idNumber>c6002e5679534eg</idNumber>  
+   <assigningAuthorityUniversalId>1.3.6.1.4.1.21367.2005.3.7</assigningAuthorityUniversalId>
+   <assigningAuthorityUniversalIdType>ISO</assigningAuthorityUniversalIdType>
+  </patientId>
+</tns:Folder>

@@ -1,0 +1,32 @@
+<lcm:SubmitObjectsRequest xsi:schemaLocation="urn:oasis:names:tc:ebxml-regrep:xsd:lcm:3.0 ../../schema/ebRS/lcm.xsd" xmlns:lcm="urn:oasis:names:tc:ebxml-regrep:xsd:lcm:3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rim="urn:oasis:names:tc:ebxml-regrep:xsd:rim:3.0" xmlns:rs="urn:oasis:names:tc:ebxml-regrep:xsd:rs:3.0">
+			<rim:RegistryObjectList>
+				<rim:ExtrinsicObject id="Document01" mimeType="text/xml" objectType="urn:uuid:7edca82f-054d-47f2-a032-9b2a5b5186c1">
+					
+					<rim:Slot name="sourcePatientId">
+						<rim:ValueList>
+							<rim:Value>ST-1000^^^&amp;1.3.6.1.4.1.21367.2003.3.9&amp;ISO</rim:Value>
+						</rim:ValueList>
+					</rim:Slot>
+					<rim:Slot name="sourcePatientInfo">
+						<rim:ValueList>
+							<rim:Value>PID-3|ST-1000^^^&amp;1.3.6.1.4.1.21367.2003.3.9&amp;ISO</rim:Value>
+							<rim:Value>PID-5|Doe^John^^^</rim:Value>
+							<rim:Value>PID-7|19560527</rim:Value>
+							<rim:Value>PID-8|M</rim:Value>
+							<rim:Value>PID-11|100 Main St^^Metropolis^Il^44130^USA</rim:Value>
+						</rim:ValueList>
+					</rim:Slot>
+				</rim:ExtrinsicObject>
+				<rim:RegistryPackage id="SubmissionSet01">
+					
+				</rim:RegistryPackage>
+				<rim:Classification id="cl10" classifiedObject="SubmissionSet01" classificationNode="urn:uuid:a54d6aa5-d40d-43f9-88c5-b4633d873bdd"/>
+				<rim:Association id="as01" associationType="urn:oasis:names:tc:ebxml-regrep:AssociationType:HasMember" sourceObject="SubmissionSet01" targetObject="Document01">
+					<rim:Slot name="SubmissionSetStatus">
+						<rim:ValueList>
+							<rim:Value>Original</rim:Value>
+						</rim:ValueList>
+					</rim:Slot>
+				</rim:Association>
+			</rim:RegistryObjectList>
+		</lcm:SubmitObjectsRequest>

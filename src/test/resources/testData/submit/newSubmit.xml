@@ -1,0 +1,583 @@
+<lcm:SubmitObjectsRequest xmlns:lcm="urn:oasis:names:tc:ebxml-regrep:xsd:lcm:3.0" xmlns:rs="urn:oasis:names:tc:ebxml-regrep:xsd:rs:3.0" xmlns:xds="urn:ihe:iti:xds-b:2007" xmlns:query="urn:oasis:names:tc:ebxml-regrep:xsd:query:3.0" xmlns:rim="urn:oasis:names:tc:ebxml-regrep:xsd:rim:3.0">
+    <rim:RegistryObjectList>
+        <rim:ExtrinsicObject mimeType="text/plain" lid="urn:uuid:6907b4fc-5573-4b21-ac97-2a5effb53b71" objectType="urn:uuid:7edca82f-054d-47f2-a032-9b2a5b5186c1" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved" home="1.19.6.24.109.42.1.5" id="urn:uuid:072c2f6c-053a-49f3-8790-e0e06908f724">
+            <rim:Slot name="creationTime">
+                <rim:ValueList>
+                    <rim:Value>20130924160212</rim:Value>
+                </rim:ValueList>
+            </rim:Slot>
+            <rim:Slot name="serviceStartTime">
+                <rim:ValueList>
+                    <rim:Value>20130924160212</rim:Value>
+                </rim:ValueList>
+            </rim:Slot>
+            <rim:Slot name="serviceStopTime">
+                <rim:ValueList>
+                    <rim:Value>20130924160212</rim:Value>
+                </rim:ValueList>
+            </rim:Slot>
+            <rim:Slot name="languageCode">
+                <rim:ValueList>
+                    <rim:Value>zh-tw</rim:Value>
+                </rim:ValueList>
+            </rim:Slot>
+            <rim:Slot name="sourcePatientId">
+                <rim:ValueList>
+                    <rim:Value>c6002e5679534ea^^^&amp;1.3.6.1.4.1.21367.2005.3.7&amp;ISO</rim:Value>
+                </rim:ValueList>
+            </rim:Slot>
+            <rim:Slot name="sourcePatientInfo">
+                <rim:ValueList>
+                    <rim:Value>PID-3|c6002e5679534ea^^^&amp;1.3.6.1.4.1.21367.2005.3.7&amp;ISO</rim:Value>
+                    <rim:Value>PID-5|Wang^Dai-Wei^^^</rim:Value>
+                    <rim:Value>PID-7|19990801000000</rim:Value>
+                    <rim:Value>PID-8|M</rim:Value>
+                    <rim:Value>PID-11|Sec.2, Linong Street^^ Taipei ^112^ Taiwan</rim:Value>
+                </rim:ValueList>
+            </rim:Slot>
+            <rim:Slot name="hash">
+                <rim:ValueList>
+                    <rim:Value>202cb962ac59075b964b07152d234b70</rim:Value>
+                </rim:ValueList>
+            </rim:Slot>
+            <rim:Slot name="size">
+                <rim:ValueList>
+                    <rim:Value>3</rim:Value>
+                </rim:ValueList>
+            </rim:Slot>
+            <rim:Slot name="repositoryUniqueId">
+                <rim:ValueList>
+                    <rim:Value>1.19.6.24.109.42.1</rim:Value>
+                </rim:ValueList>
+            </rim:Slot>
+            <rim:Name>
+                <rim:LocalizedString value="Hello.txt" />
+            </rim:Name>
+            <rim:Description>
+                <rim:LocalizedString value="Hello.txt" />
+            </rim:Description>
+            <rim:VersionInfo versionName="1.1" />
+            <rim:Classification classificationScheme="urn:uuid:93606bcf-9494-43ec-9b4e-a7748d1a838d" classifiedObject="urn:uuid:072c2f6c-053a-49f3-8790-e0e06908f724" nodeRepresentation="" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" id="urn:uuid:898abda3-6104-497c-a908-f75ed1cdd5bc">
+                <rim:Slot name="authorRole">
+                    <rim:ValueList>
+                        <rim:Value>Responsible Medical Personnel</rim:Value>
+                    </rim:ValueList>
+                </rim:Slot>
+                <rim:Slot name="authorInstitution">
+                    <rim:ValueList>
+                        <rim:Value>Hualien</rim:Value>
+                    </rim:ValueList>
+                </rim:Slot>
+                <rim:Slot name="authorPerson">
+                    <rim:ValueList>
+                        <rim:Value>^Kevine^Chien^^Mr.^^^^^</rim:Value>
+                    </rim:ValueList>
+                </rim:Slot>
+                <rim:Slot name="authorSpecialty">
+                    <rim:ValueList>
+                        <rim:Value>Division of Family Medicine</rim:Value>
+                    </rim:ValueList>
+                </rim:Slot>
+            </rim:Classification>
+            <rim:Classification classificationScheme="urn:uuid:41a5887f-8865-4c09-adf7-e362475b143a" classifiedObject="urn:uuid:072c2f6c-053a-49f3-8790-e0e06908f724" nodeRepresentation="10160-0" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" id="urn:uuid:c0476a1e-849a-4e94-911d-8cc396639f65">
+                <rim:Slot name="codingScheme">
+                    <rim:ValueList>
+                        <rim:Value>2.16.840.1.113883.6.1</rim:Value>
+                    </rim:ValueList>
+                </rim:Slot>
+                <rim:Name>
+                    <rim:LocalizedString value="History of MEdication Use" />
+                </rim:Name>
+            </rim:Classification>
+            <rim:Classification classificationScheme="urn:uuid:f4f85eac-e6cb-4883-b524-f2705394840f" classifiedObject="urn:uuid:072c2f6c-053a-49f3-8790-e0e06908f724" nodeRepresentation="N" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" id="urn:uuid:9f7c804e-40c5-413c-8cbf-7cd06ce661e5">
+                <rim:Slot name="codingScheme">
+                    <rim:ValueList>
+                        <rim:Value>2.16.840.1.113883.5.25</rim:Value>
+                    </rim:ValueList>
+                </rim:Slot>
+                <rim:Name>
+                    <rim:LocalizedString value="Normal" />
+                </rim:Name>
+            </rim:Classification>
+            <rim:Classification classificationScheme="urn:uuid:2c6b8cb7-8b2a-4051-b291-b1ae6a575ef4" classifiedObject="urn:uuid:072c2f6c-053a-49f3-8790-e0e06908f724" nodeRepresentation="TRID1001" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" id="urn:uuid:82a4fc3a-6ea6-4f5b-9d7a-f8e4202ecdf7">
+                <rim:Slot name="codingScheme">
+                    <rim:ValueList>
+                        <rim:Value>RSNA2008 eventCodeList</rim:Value>
+                    </rim:ValueList>
+                </rim:Slot>
+                <rim:Name>
+                    <rim:LocalizedString value="XRAY CHEST Orderable" />
+                </rim:Name>
+            </rim:Classification>
+            <rim:Classification classificationScheme="urn:uuid:a09d5840-386c-46f2-b5ad-9c3699a4309d" classifiedObject="urn:uuid:072c2f6c-053a-49f3-8790-e0e06908f724" nodeRepresentation="urn:ihe:pcc:apr:lab:2008" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" id="urn:uuid:011f02e1-4023-47a3-9b7c-51483dc4ddd9">
+                <rim:Slot name="codingScheme">
+                    <rim:ValueList>
+                        <rim:Value>IHE-PCC</rim:Value>
+                    </rim:ValueList>
+                </rim:Slot>
+                <rim:Name>
+                    <rim:LocalizedString value="PDF embedded in CDA per XDS-SD profile" />
+                </rim:Name>
+            </rim:Classification>
+            <rim:Classification classificationScheme="urn:uuid:f33fb8ac-18af-42cc-ae0e-ed0b0bdb91e1" classifiedObject="urn:uuid:072c2f6c-053a-49f3-8790-e0e06908f724" nodeRepresentation="281PC2000N" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" id="urn:uuid:0a01bc2b-9da3-46e2-afc3-314684aee943">
+                <rim:Slot name="codingScheme">
+                    <rim:ValueList>
+                        <rim:Value>2.16.840.1.113883.5.11</rim:Value>
+                    </rim:ValueList>
+                </rim:Slot>
+                <rim:Name>
+                    <rim:LocalizedString value="Hospitals; Chronic Disease Hospital; Children" />
+                </rim:Name>
+            </rim:Classification>
+            <rim:Classification classificationScheme="urn:uuid:cccf5598-8b07-4b77-a05e-ae952c785ead" classifiedObject="urn:uuid:072c2f6c-053a-49f3-8790-e0e06908f724" nodeRepresentation="394802001" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" id="urn:uuid:11d734da-ec27-4f62-9350-7eda8eaaeece">
+                <rim:Slot name="codingScheme">
+                    <rim:ValueList>
+                        <rim:Value>2.16.840.1.113883.6.96</rim:Value>
+                    </rim:ValueList>
+                </rim:Slot>
+                <rim:Name>
+                    <rim:LocalizedString value="General Medicine" />
+                </rim:Name>
+            </rim:Classification>
+            <rim:Classification classificationScheme="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983" classifiedObject="urn:uuid:072c2f6c-053a-49f3-8790-e0e06908f724" nodeRepresentation="34096-8" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" id="urn:uuid:2e82b249-192c-42da-87d3-e1508f14e6e0">
+                <rim:Slot name="codingScheme">
+                    <rim:ValueList>
+                        <rim:Value>LOINC</rim:Value>
+                    </rim:ValueList>
+                </rim:Slot>
+                <rim:Name>
+                    <rim:LocalizedString value="Nursing Home Comprehensive History and Physical Note" />
+                </rim:Name>
+            </rim:Classification>
+            <rim:ExternalIdentifier identificationScheme="urn:uuid:58a6f841-87b3-4a3e-92fd-a8ffeff98427" registryObject="urn:uuid:072c2f6c-053a-49f3-8790-e0e06908f724" value="c6002e5679534ea^^^&amp;1.3.6.1.4.1.21367.2005.3.7&amp;ISO" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" id="urn:uuid:38bc3453-6918-414c-9155-00806422c8f8">
+                <rim:Name>
+                    <rim:LocalizedString value="XDSDocumentEntry.patientId" />
+                </rim:Name>
+            </rim:ExternalIdentifier>
+            <rim:ExternalIdentifier identificationScheme="urn:uuid:2e82c1f6-a085-4c72-9da3-8640a32e42ab" registryObject="urn:uuid:072c2f6c-053a-49f3-8790-e0e06908f724" value="1.3.6.1.4.1.21367.2010.1.2.192.168.1.43.20130924160212.0" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" id="urn:uuid:2fde79ce-2984-462c-8766-bb8084bff02d">
+                <rim:Name>
+                    <rim:LocalizedString value="XDSDocumentEntry.uniqueId" />
+                </rim:Name>
+            </rim:ExternalIdentifier>
+        </rim:ExtrinsicObject>
+        <rim:ExtrinsicObject mimeType="application/pdf" lid="urn:uuid:e045ecab-e357-47d2-ac8f-ab79ab96a99e" objectType="urn:uuid:7edca82f-054d-47f2-a032-9b2a5b5186c1" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved" home="1.19.6.24.109.42.1.5" id="urn:uuid:09c8b9f5-f189-4285-b947-7e017dfe59b6">
+            <rim:Slot name="creationTime">
+                <rim:ValueList>
+                    <rim:Value>20130924160212</rim:Value>
+                </rim:ValueList>
+            </rim:Slot>
+            <rim:Slot name="serviceStartTime">
+                <rim:ValueList>
+                    <rim:Value>20130924160212</rim:Value>
+                </rim:ValueList>
+            </rim:Slot>
+            <rim:Slot name="serviceStopTime">
+                <rim:ValueList>
+                    <rim:Value>20130924160212</rim:Value>
+                </rim:ValueList>
+            </rim:Slot>
+            <rim:Slot name="languageCode">
+                <rim:ValueList>
+                    <rim:Value>zh-tw</rim:Value>
+                </rim:ValueList>
+            </rim:Slot>
+            <rim:Slot name="sourcePatientId">
+                <rim:ValueList>
+                    <rim:Value>c6002e5679534ea^^^&amp;1.3.6.1.4.1.21367.2005.3.7&amp;ISO</rim:Value>
+                </rim:ValueList>
+            </rim:Slot>
+            <rim:Slot name="sourcePatientInfo">
+                <rim:ValueList>
+                    <rim:Value>PID-3|c6002e5679534ea^^^&amp;1.3.6.1.4.1.21367.2005.3.7&amp;ISO</rim:Value>
+                    <rim:Value>PID-5|Wang^Dai-Wei^^^</rim:Value>
+                    <rim:Value>PID-7|19990801000000</rim:Value>
+                    <rim:Value>PID-8|M</rim:Value>
+                    <rim:Value>PID-11|Sec.2, Linong Street^^ Taipei ^112^ Taiwan</rim:Value>
+                </rim:ValueList>
+            </rim:Slot>
+            <rim:Slot name="hash">
+                <rim:ValueList>
+                    <rim:Value>e04ee652412746b588406ebcf8723725</rim:Value>
+                </rim:ValueList>
+            </rim:Slot>
+            <rim:Slot name="size">
+                <rim:ValueList>
+                    <rim:Value>2820</rim:Value>
+                </rim:ValueList>
+            </rim:Slot>
+            <rim:Slot name="repositoryUniqueId">
+                <rim:ValueList>
+                    <rim:Value>1.19.6.24.109.42.1</rim:Value>
+                </rim:ValueList>
+            </rim:Slot>
+            <rim:Name>
+                <rim:LocalizedString value="2.pdf" />
+            </rim:Name>
+            <rim:Description>
+                <rim:LocalizedString value="2.pdf" />
+            </rim:Description>
+            <rim:VersionInfo versionName="1.1" />
+            <rim:Classification classificationScheme="urn:uuid:93606bcf-9494-43ec-9b4e-a7748d1a838d" classifiedObject="urn:uuid:09c8b9f5-f189-4285-b947-7e017dfe59b6" nodeRepresentation="" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" id="urn:uuid:a1c10e3e-86d3-4018-beff-f9dd29e739f3">
+                <rim:Slot name="authorRole">
+                    <rim:ValueList>
+                        <rim:Value>Responsible Medical Personnel</rim:Value>
+                    </rim:ValueList>
+                </rim:Slot>
+                <rim:Slot name="authorInstitution">
+                    <rim:ValueList>
+                        <rim:Value>Hualien</rim:Value>
+                    </rim:ValueList>
+                </rim:Slot>
+                <rim:Slot name="authorPerson">
+                    <rim:ValueList>
+                        <rim:Value>^Kevine^Chien^^Mr.^^^^^</rim:Value>
+                    </rim:ValueList>
+                </rim:Slot>
+                <rim:Slot name="authorSpecialty">
+                    <rim:ValueList>
+                        <rim:Value>Division of Family Medicine</rim:Value>
+                    </rim:ValueList>
+                </rim:Slot>
+            </rim:Classification>
+            <rim:Classification classificationScheme="urn:uuid:41a5887f-8865-4c09-adf7-e362475b143a" classifiedObject="urn:uuid:09c8b9f5-f189-4285-b947-7e017dfe59b6" nodeRepresentation="10160-0" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" id="urn:uuid:4d5f7798-20ae-4290-9870-705d831ff950">
+                <rim:Slot name="codingScheme">
+                    <rim:ValueList>
+                        <rim:Value>2.16.840.1.113883.6.1</rim:Value>
+                    </rim:ValueList>
+                </rim:Slot>
+                <rim:Name>
+                    <rim:LocalizedString value="History of MEdication Use" />
+                </rim:Name>
+            </rim:Classification>
+            <rim:Classification classificationScheme="urn:uuid:f4f85eac-e6cb-4883-b524-f2705394840f" classifiedObject="urn:uuid:09c8b9f5-f189-4285-b947-7e017dfe59b6" nodeRepresentation="N" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" id="urn:uuid:d3a1aa71-a1ba-4950-a4d9-f9611d666846">
+                <rim:Slot name="codingScheme">
+                    <rim:ValueList>
+                        <rim:Value>2.16.840.1.113883.5.25</rim:Value>
+                    </rim:ValueList>
+                </rim:Slot>
+                <rim:Name>
+                    <rim:LocalizedString value="Normal" />
+                </rim:Name>
+            </rim:Classification>
+            <rim:Classification classificationScheme="urn:uuid:2c6b8cb7-8b2a-4051-b291-b1ae6a575ef4" classifiedObject="urn:uuid:09c8b9f5-f189-4285-b947-7e017dfe59b6" nodeRepresentation="TRID1001" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" id="urn:uuid:86aa62cb-329e-4d8f-b37d-aedb062bfcea">
+                <rim:Slot name="codingScheme">
+                    <rim:ValueList>
+                        <rim:Value>RSNA2008 eventCodeList</rim:Value>
+                    </rim:ValueList>
+                </rim:Slot>
+                <rim:Name>
+                    <rim:LocalizedString value="XRAY CHEST Orderable" />
+                </rim:Name>
+            </rim:Classification>
+            <rim:Classification classificationScheme="urn:uuid:a09d5840-386c-46f2-b5ad-9c3699a4309d" classifiedObject="urn:uuid:09c8b9f5-f189-4285-b947-7e017dfe59b6" nodeRepresentation="urn:ihe:pcc:apr:lab:2008" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" id="urn:uuid:558ac525-ddb9-4641-b690-cbc803de4cf0">
+                <rim:Slot name="codingScheme">
+                    <rim:ValueList>
+                        <rim:Value>IHE-PCC</rim:Value>
+                    </rim:ValueList>
+                </rim:Slot>
+                <rim:Name>
+                    <rim:LocalizedString value="PDF embedded in CDA per XDS-SD profile" />
+                </rim:Name>
+            </rim:Classification>
+            <rim:Classification classificationScheme="urn:uuid:f33fb8ac-18af-42cc-ae0e-ed0b0bdb91e1" classifiedObject="urn:uuid:09c8b9f5-f189-4285-b947-7e017dfe59b6" nodeRepresentation="281PC2000N" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" id="urn:uuid:dbbf6618-13e6-4cc8-aca3-11dd0066f38c">
+                <rim:Slot name="codingScheme">
+                    <rim:ValueList>
+                        <rim:Value>2.16.840.1.113883.5.11</rim:Value>
+                    </rim:ValueList>
+                </rim:Slot>
+                <rim:Name>
+                    <rim:LocalizedString value="Hospitals; Chronic Disease Hospital; Children" />
+                </rim:Name>
+            </rim:Classification>
+            <rim:Classification classificationScheme="urn:uuid:cccf5598-8b07-4b77-a05e-ae952c785ead" classifiedObject="urn:uuid:09c8b9f5-f189-4285-b947-7e017dfe59b6" nodeRepresentation="394802001" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" id="urn:uuid:51fc985d-1135-448b-94b2-bcc79a469f8c">
+                <rim:Slot name="codingScheme">
+                    <rim:ValueList>
+                        <rim:Value>2.16.840.1.113883.6.96</rim:Value>
+                    </rim:ValueList>
+                </rim:Slot>
+                <rim:Name>
+                    <rim:LocalizedString value="General Medicine" />
+                </rim:Name>
+            </rim:Classification>
+            <rim:Classification classificationScheme="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983" classifiedObject="urn:uuid:09c8b9f5-f189-4285-b947-7e017dfe59b6" nodeRepresentation="34096-8" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" id="urn:uuid:4435c15c-770a-4e3e-bca4-b8a201ee09d2">
+                <rim:Slot name="codingScheme">
+                    <rim:ValueList>
+                        <rim:Value>LOINC</rim:Value>
+                    </rim:ValueList>
+                </rim:Slot>
+                <rim:Name>
+                    <rim:LocalizedString value="Nursing Home Comprehensive History and Physical Note" />
+                </rim:Name>
+            </rim:Classification>
+            <rim:ExternalIdentifier identificationScheme="urn:uuid:58a6f841-87b3-4a3e-92fd-a8ffeff98427" registryObject="urn:uuid:09c8b9f5-f189-4285-b947-7e017dfe59b6" value="c6002e5679534ea^^^&amp;1.3.6.1.4.1.21367.2005.3.7&amp;ISO" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" id="urn:uuid:7a5e7d63-ca17-43e9-8d03-0f71ce894dd1">
+                <rim:Name>
+                    <rim:LocalizedString value="XDSDocumentEntry.patientId" />
+                </rim:Name>
+            </rim:ExternalIdentifier>
+            <rim:ExternalIdentifier identificationScheme="urn:uuid:2e82c1f6-a085-4c72-9da3-8640a32e42ab" registryObject="urn:uuid:09c8b9f5-f189-4285-b947-7e017dfe59b6" value="1.3.6.1.4.1.21367.2010.1.2.192.168.1.43.20130924160212.1" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" id="urn:uuid:f373b3ae-4f10-4e45-bbd2-6b493425de31">
+                <rim:Name>
+                    <rim:LocalizedString value="XDSDocumentEntry.uniqueId" />
+                </rim:Name>
+            </rim:ExternalIdentifier>
+        </rim:ExtrinsicObject>
+        <rim:ExtrinsicObject mimeType="application/dicom" lid="urn:uuid:af15e94c-b7b0-4c62-98da-c2aa7ded70a0" objectType="urn:uuid:7edca82f-054d-47f2-a032-9b2a5b5186c1" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved" home="1.19.6.24.109.42.1.5" id="urn:uuid:a9d7f4ea-edd7-47c6-9833-3057e0316985">
+            <rim:Slot name="creationTime">
+                <rim:ValueList>
+                    <rim:Value>20130924160212</rim:Value>
+                </rim:ValueList>
+            </rim:Slot>
+            <rim:Slot name="serviceStartTime">
+                <rim:ValueList>
+                    <rim:Value>20130924160212</rim:Value>
+                </rim:ValueList>
+            </rim:Slot>
+            <rim:Slot name="serviceStopTime">
+                <rim:ValueList>
+                    <rim:Value>20130924160212</rim:Value>
+                </rim:ValueList>
+            </rim:Slot>
+            <rim:Slot name="languageCode">
+                <rim:ValueList>
+                    <rim:Value>zh-tw</rim:Value>
+                </rim:ValueList>
+            </rim:Slot>
+            <rim:Slot name="sourcePatientId">
+                <rim:ValueList>
+                    <rim:Value>c6002e5679534ea^^^&amp;1.3.6.1.4.1.21367.2005.3.7&amp;ISO</rim:Value>
+                </rim:ValueList>
+            </rim:Slot>
+            <rim:Slot name="sourcePatientInfo">
+                <rim:ValueList>
+                    <rim:Value>PID-3|c6002e5679534ea^^^&amp;1.3.6.1.4.1.21367.2005.3.7&amp;ISO</rim:Value>
+                    <rim:Value>PID-5|Wang^Dai-Wei^^^</rim:Value>
+                    <rim:Value>PID-7|19990801000000</rim:Value>
+                    <rim:Value>PID-8|M</rim:Value>
+                    <rim:Value>PID-11|Sec.2, Linong Street^^ Taipei ^112^ Taiwan</rim:Value>
+                </rim:ValueList>
+            </rim:Slot>
+            <rim:Slot name="hash">
+                <rim:ValueList>
+                    <rim:Value>8fbc8219b1014f12f47860679361fac6</rim:Value>
+                </rim:ValueList>
+            </rim:Slot>
+            <rim:Slot name="size">
+                <rim:ValueList>
+                    <rim:Value>2410</rim:Value>
+                </rim:ValueList>
+            </rim:Slot>
+            <rim:Slot name="repositoryUniqueId">
+                <rim:ValueList>
+                    <rim:Value>1.19.6.24.109.42.1</rim:Value>
+                </rim:ValueList>
+            </rim:Slot>
+            <rim:Name>
+                <rim:LocalizedString value="002-KOS.dcm" />
+            </rim:Name>
+            <rim:Description>
+                <rim:LocalizedString value="002-KOS.dcm" />
+            </rim:Description>
+            <rim:VersionInfo versionName="1.1" />
+            <rim:Classification classificationScheme="urn:uuid:93606bcf-9494-43ec-9b4e-a7748d1a838d" classifiedObject="urn:uuid:a9d7f4ea-edd7-47c6-9833-3057e0316985" nodeRepresentation="" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" id="urn:uuid:6aae390e-2b10-4d79-a1a8-46f857508eb2">
+                <rim:Slot name="authorRole">
+                    <rim:ValueList>
+                        <rim:Value>Responsible Medical Personnel</rim:Value>
+                    </rim:ValueList>
+                </rim:Slot>
+                <rim:Slot name="authorInstitution">
+                    <rim:ValueList>
+                        <rim:Value>Hualien</rim:Value>
+                    </rim:ValueList>
+                </rim:Slot>
+                <rim:Slot name="authorPerson">
+                    <rim:ValueList>
+                        <rim:Value>^Kevine^Chien^^Mr.^^^^^</rim:Value>
+                    </rim:ValueList>
+                </rim:Slot>
+                <rim:Slot name="authorSpecialty">
+                    <rim:ValueList>
+                        <rim:Value>Division of Family Medicine</rim:Value>
+                    </rim:ValueList>
+                </rim:Slot>
+            </rim:Classification>
+            <rim:Classification classificationScheme="urn:uuid:41a5887f-8865-4c09-adf7-e362475b143a" classifiedObject="urn:uuid:a9d7f4ea-edd7-47c6-9833-3057e0316985" nodeRepresentation="10160-0" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" id="urn:uuid:3155409f-e541-4406-968f-82bfc8694687">
+                <rim:Slot name="codingScheme">
+                    <rim:ValueList>
+                        <rim:Value>2.16.840.1.113883.6.1</rim:Value>
+                    </rim:ValueList>
+                </rim:Slot>
+                <rim:Name>
+                    <rim:LocalizedString value="History of MEdication Use" />
+                </rim:Name>
+            </rim:Classification>
+            <rim:Classification classificationScheme="urn:uuid:f4f85eac-e6cb-4883-b524-f2705394840f" classifiedObject="urn:uuid:a9d7f4ea-edd7-47c6-9833-3057e0316985" nodeRepresentation="N" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" id="urn:uuid:4f1c586f-fd9c-4db7-9fc6-0a528aafde33">
+                <rim:Slot name="codingScheme">
+                    <rim:ValueList>
+                        <rim:Value>2.16.840.1.113883.5.25</rim:Value>
+                    </rim:ValueList>
+                </rim:Slot>
+                <rim:Name>
+                    <rim:LocalizedString value="Normal" />
+                </rim:Name>
+            </rim:Classification>
+            <rim:Classification classificationScheme="urn:uuid:2c6b8cb7-8b2a-4051-b291-b1ae6a575ef4" classifiedObject="urn:uuid:a9d7f4ea-edd7-47c6-9833-3057e0316985" nodeRepresentation="TRID1001" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" id="urn:uuid:f9f81f19-6062-4749-ac6e-33abe25b929c">
+                <rim:Slot name="codingScheme">
+                    <rim:ValueList>
+                        <rim:Value>RSNA2008 eventCodeList</rim:Value>
+                    </rim:ValueList>
+                </rim:Slot>
+                <rim:Name>
+                    <rim:LocalizedString value="XRAY CHEST Orderable" />
+                </rim:Name>
+            </rim:Classification>
+            <rim:Classification classificationScheme="urn:uuid:a09d5840-386c-46f2-b5ad-9c3699a4309d" classifiedObject="urn:uuid:a9d7f4ea-edd7-47c6-9833-3057e0316985" nodeRepresentation="urn:ihe:pcc:apr:lab:2008" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" id="urn:uuid:4612d309-e32d-45df-8f68-09814f71b4a1">
+                <rim:Slot name="codingScheme">
+                    <rim:ValueList>
+                        <rim:Value>IHE-PCC</rim:Value>
+                    </rim:ValueList>
+                </rim:Slot>
+                <rim:Name>
+                    <rim:LocalizedString value="PDF embedded in CDA per XDS-SD profile" />
+                </rim:Name>
+            </rim:Classification>
+            <rim:Classification classificationScheme="urn:uuid:f33fb8ac-18af-42cc-ae0e-ed0b0bdb91e1" classifiedObject="urn:uuid:a9d7f4ea-edd7-47c6-9833-3057e0316985" nodeRepresentation="281PC2000N" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" id="urn:uuid:52c90ab8-4188-4dfe-81e6-66c1bb0f1f4a">
+                <rim:Slot name="codingScheme">
+                    <rim:ValueList>
+                        <rim:Value>2.16.840.1.113883.5.11</rim:Value>
+                    </rim:ValueList>
+                </rim:Slot>
+                <rim:Name>
+                    <rim:LocalizedString value="Hospitals; Chronic Disease Hospital; Children" />
+                </rim:Name>
+            </rim:Classification>
+            <rim:Classification classificationScheme="urn:uuid:cccf5598-8b07-4b77-a05e-ae952c785ead" classifiedObject="urn:uuid:a9d7f4ea-edd7-47c6-9833-3057e0316985" nodeRepresentation="394802001" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" id="urn:uuid:9767902e-d439-443c-be77-211994c8aa2a">
+                <rim:Slot name="codingScheme">
+                    <rim:ValueList>
+                        <rim:Value>2.16.840.1.113883.6.96</rim:Value>
+                    </rim:ValueList>
+                </rim:Slot>
+                <rim:Name>
+                    <rim:LocalizedString value="General Medicine" />
+                </rim:Name>
+            </rim:Classification>
+            <rim:Classification classificationScheme="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983" classifiedObject="urn:uuid:a9d7f4ea-edd7-47c6-9833-3057e0316985" nodeRepresentation="34096-8" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" id="urn:uuid:cbecf870-2edc-4dd8-bedb-40281fcd5ff0">
+                <rim:Slot name="codingScheme">
+                    <rim:ValueList>
+                        <rim:Value>LOINC</rim:Value>
+                    </rim:ValueList>
+                </rim:Slot>
+                <rim:Name>
+                    <rim:LocalizedString value="Nursing Home Comprehensive History and Physical Note" />
+                </rim:Name>
+            </rim:Classification>
+            <rim:ExternalIdentifier identificationScheme="urn:uuid:58a6f841-87b3-4a3e-92fd-a8ffeff98427" registryObject="urn:uuid:a9d7f4ea-edd7-47c6-9833-3057e0316985" value="c6002e5679534ea^^^&amp;1.3.6.1.4.1.21367.2005.3.7&amp;ISO" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" id="urn:uuid:d785cb3d-f05b-4977-9a83-dde4ae554e99">
+                <rim:Name>
+                    <rim:LocalizedString value="XDSDocumentEntry.patientId" />
+                </rim:Name>
+            </rim:ExternalIdentifier>
+            <rim:ExternalIdentifier identificationScheme="urn:uuid:2e82c1f6-a085-4c72-9da3-8640a32e42ab" registryObject="urn:uuid:a9d7f4ea-edd7-47c6-9833-3057e0316985" value="1.3.6.1.4.1.21367.2010.1.2.192.168.1.43.20130924160212.2" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" id="urn:uuid:93352db6-3b4f-4537-935a-93990d00d83e">
+                <rim:Name>
+                    <rim:LocalizedString value="XDSDocumentEntry.uniqueId" />
+                </rim:Name>
+            </rim:ExternalIdentifier>
+        </rim:ExtrinsicObject>
+        <rim:RegistryPackage lid="urn:uuid:d7a93dde-e7f8-4ee9-b9fb-449ae319de63" objectType="urn:uuid:a54d6aa5-d40d-43f9-88c5-b4633d873bdd" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved" id="urn:uuid:c26ec707-6767-48ce-a8b0-cca778576d86">
+            <rim:Slot name="submissionTime">
+                <rim:ValueList>
+                    <rim:Value>20130924160212</rim:Value>
+                </rim:ValueList>
+            </rim:Slot>
+            <rim:VersionInfo versionName="1.1" />
+            <rim:Classification classificationScheme="urn:uuid:a7058bb9-b4e4-4307-ba5b-e3f0ab85e12d" classifiedObject="urn:uuid:c26ec707-6767-48ce-a8b0-cca778576d86" nodeRepresentation="" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" id="urn:uuid:f0059950-b496-4491-81ca-a7d7a1bc8dbc">
+                <rim:Slot name="authorRole">
+                    <rim:ValueList>
+                        <rim:Value>Responsible Medical Personnel</rim:Value>
+                    </rim:ValueList>
+                </rim:Slot>
+                <rim:Slot name="authorInstitution">
+                    <rim:ValueList>
+                        <rim:Value>Hualien</rim:Value>
+                    </rim:ValueList>
+                </rim:Slot>
+                <rim:Slot name="authorPerson">
+                    <rim:ValueList>
+                        <rim:Value>^Kevine^Chien^^Mr.^^^^^</rim:Value>
+                    </rim:ValueList>
+                </rim:Slot>
+                <rim:Slot name="authorSpecialty">
+                    <rim:ValueList>
+                        <rim:Value>Division of Family Medicine</rim:Value>
+                    </rim:ValueList>
+                </rim:Slot>
+            </rim:Classification>
+            <rim:Classification classificationScheme="urn:uuid:aa543740-bdda-424e-8c96-df4873be8500" classifiedObject="urn:uuid:c26ec707-6767-48ce-a8b0-cca778576d86" nodeRepresentation="Communication" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Classification" id="urn:uuid:7b24a3d3-1440-4273-a1c5-c8c47d969215">
+                <rim:Slot name="codingScheme">
+                    <rim:ValueList>
+                        <rim:Value>Connect-a-thon contentTypeCodes</rim:Value>
+                    </rim:ValueList>
+                </rim:Slot>
+                <rim:Name>
+                    <rim:LocalizedString value="Communication" />
+                </rim:Name>
+            </rim:Classification>
+            <rim:ExternalIdentifier identificationScheme="urn:uuid:6b5aea1a-874d-4603-a4bc-96a0a7b38446" registryObject="urn:uuid:c26ec707-6767-48ce-a8b0-cca778576d86" value="c6002e5679534ea^^^&amp;1.3.6.1.4.1.21367.2005.3.7&amp;ISO" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" id="urn:uuid:4c93aa41-04bd-4485-b723-63a9d2a91328">
+                <rim:Name>
+                    <rim:LocalizedString value="XDSSubmissionSet.patientId" />
+                </rim:Name>
+            </rim:ExternalIdentifier>
+            <rim:ExternalIdentifier identificationScheme="urn:uuid:96fdda7c-d067-4183-912e-bf5ee74998a8" registryObject="urn:uuid:c26ec707-6767-48ce-a8b0-cca778576d86" value="1.3.6.1.4.1.21367.2010.1.2.192.168.1.43.20130924160212.3" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" id="urn:uuid:fc7c588d-fa76-45cc-bd92-e4fc88720cb6">
+                <rim:Name>
+                    <rim:LocalizedString value="XDSSubmissionSet.uniqueId" />
+                </rim:Name>
+            </rim:ExternalIdentifier>
+            <rim:ExternalIdentifier identificationScheme="urn:uuid:554ac39e-e3fe-47fe-b233-965d2a147832" registryObject="urn:uuid:c26ec707-6767-48ce-a8b0-cca778576d86" value="1.3.6.1.4.1.21367.2010.1.2" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:ExternalIdentifier" id="urn:uuid:dd07f061-ccb4-4f83-b91c-783c011d121f">
+                <rim:Name>
+                    <rim:LocalizedString value="XDSSubmissionSet.sourceId" />
+                </rim:Name>
+            </rim:ExternalIdentifier>
+        </rim:RegistryPackage>
+        <rim:Classification classificationNode="urn:uuid:a54d6aa5-d40d-43f9-88c5-b4633d873bdd" classifiedObject="urn:uuid:c26ec707-6767-48ce-a8b0-cca778576d86" nodeRepresentation="" lid="urn:uuid:4d9f8b76-2d06-44b9-92ef-f4ae2e484ddd" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved" id="urn:uuid:4ad18da5-e3d5-4989-b184-8a24c4ed9bdc">
+            <rim:VersionInfo versionName="1.1" />
+        </rim:Classification>
+        <rim:Association associationType="urn:oasis:names:tc:ebxml-regrep:AssociationType:HasMember" sourceObject="urn:uuid:c26ec707-6767-48ce-a8b0-cca778576d86" targetObject="urn:uuid:072c2f6c-053a-49f3-8790-e0e06908f724" lid="urn:uuid:8152c561-5d86-4207-8c7b-ff4d556a9fa9" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Association" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved" id="urn:uuid:26660393-f607-47d2-8ec2-83e4286073a4">
+            <rim:Slot name="SubmissionSetStatus">
+                <rim:ValueList>
+                    <rim:Value>Original</rim:Value>
+                </rim:ValueList>
+            </rim:Slot>
+            <rim:VersionInfo versionName="1.1" />
+        </rim:Association>
+        <rim:Association associationType="urn:oasis:names:tc:ebxml-regrep:AssociationType:HasMember" sourceObject="urn:uuid:c26ec707-6767-48ce-a8b0-cca778576d86" targetObject="urn:uuid:09c8b9f5-f189-4285-b947-7e017dfe59b6" lid="urn:uuid:f248e18e-e972-495a-b365-2a3dd2ed5a21" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Association" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved" id="urn:uuid:fd9d0b0a-d110-4652-9c87-ddd1e6f9d065">
+            <rim:Slot name="SubmissionSetStatus">
+                <rim:ValueList>
+                    <rim:Value>Original</rim:Value>
+                </rim:ValueList>
+            </rim:Slot>
+            <rim:VersionInfo versionName="1.1" />
+        </rim:Association>
+        <rim:Association associationType="urn:oasis:names:tc:ebxml-regrep:AssociationType:HasMember" sourceObject="urn:uuid:c26ec707-6767-48ce-a8b0-cca778576d86" targetObject="urn:uuid:a9d7f4ea-edd7-47c6-9833-3057e0316985" lid="urn:uuid:9c151543-9096-4201-9b34-ee9a854c17c4" objectType="urn:oasis:names:tc:ebxml-regrep:ObjectType:RegistryObject:Association" status="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved" id="urn:uuid:d95c6e48-d899-4483-b2ea-c794762f495b">
+            <rim:Slot name="SubmissionSetStatus">
+                <rim:ValueList>
+                    <rim:Value>Original</rim:Value>
+                </rim:ValueList>
+            </rim:Slot>
+            <rim:VersionInfo versionName="1.1" />
+        </rim:Association>
+        <rim:ObjectRef id="urn:uuid:96fdda7c-d067-4183-912e-bf5ee74998a8" />
+        <rim:ObjectRef id="urn:uuid:a7058bb9-b4e4-4307-ba5b-e3f0ab85e12d" />
+        <rim:ObjectRef id="urn:uuid:2c6b8cb7-8b2a-4051-b291-b1ae6a575ef4" />
+        <rim:ObjectRef id="urn:uuid:f33fb8ac-18af-42cc-ae0e-ed0b0bdb91e1" />
+        <rim:ObjectRef id="urn:uuid:aa543740-bdda-424e-8c96-df4873be8500" />
+        <rim:ObjectRef id="urn:uuid:cccf5598-8b07-4b77-a05e-ae952c785ead" />
+        <rim:ObjectRef id="urn:uuid:a54d6aa5-d40d-43f9-88c5-b4633d873bdd" />
+        <rim:ObjectRef id="urn:uuid:6b5aea1a-874d-4603-a4bc-96a0a7b38446" />
+        <rim:ObjectRef id="urn:uuid:f4f85eac-e6cb-4883-b524-f2705394840f" />
+        <rim:ObjectRef id="urn:uuid:93606bcf-9494-43ec-9b4e-a7748d1a838d" />
+        <rim:ObjectRef id="urn:uuid:554ac39e-e3fe-47fe-b233-965d2a147832" />
+        <rim:ObjectRef id="urn:uuid:41a5887f-8865-4c09-adf7-e362475b143a" />
+        <rim:ObjectRef id="urn:uuid:f0306f51-975f-434e-a61c-c59651d33983" />
+        <rim:ObjectRef id="urn:uuid:a09d5840-386c-46f2-b5ad-9c3699a4309d" />
+        <rim:ObjectRef id="urn:uuid:2e82c1f6-a085-4c72-9da3-8640a32e42ab" />
+        <rim:ObjectRef id="urn:uuid:58a6f841-87b3-4a3e-92fd-a8ffeff98427" />
+        <rim:ObjectRef id="urn:uuid:7edca82f-054d-47f2-a032-9b2a5b5186c1" />
+    </rim:RegistryObjectList>
+</lcm:SubmitObjectsRequest>
